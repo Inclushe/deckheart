@@ -1,0 +1,95 @@
+html {
+	font-family: "Roboto", Roboto, Helvetica, Arial, Verdana, sans-serif !important;
+}
+
+.mdl, .js-modal-inner, .js-modal-panel, .stream-item, .js-column-header, .is-inverted-dark, .item-box {
+	font-family: "Roboto", Roboto, Helvetica, Arial, Verdana, sans-serif !important;
+}
+
+.js-column-drag-handle {
+	background: none;
+	height: 100%;
+	width: 100%;
+}
+
+.column {
+	margin-right: 0 !important;
+	border: 0;
+}
+
+#container {
+    background-color: #222426;
+}
+
+.stream-item {
+	border-bottom: none;
+}
+
+.app-columns {
+	padding: 0 !important;
+}
+
+.scroll-styled-v, .scroll-styled-h {
+	border-left: 0 !important;
+}
+
+.scroll-styled-v::-webkit-scrollbar-track, .scroll-styled-h::-webkit-scrollbar-track {
+	border-left: 0;
+}
+
+.scroll-styled-v::-webkit-scrollbar {
+	width: 7px !important;
+}
+
+.scroll-styled-v::-webkit-scrollbar-thumb,
+.scroll-styled-h::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.05); }
+  .scroll-styled-v::-webkit-scrollbar-thumb:hover,
+  .scroll-styled-h::-webkit-scrollbar-thumb:hover {
+    background-color: #555; }
+
+.column-type-icon {
+	display: none;
+}
+
+.column-number {
+	display: none;
+}
+
+.js-app-header-inner .icon-large {
+	font-size: 20px;
+	text-align: center;
+}
+
+.js-app-header-inner .tweet-button {
+	border-radius: 20px;
+}
+
+.js-app-header-inner .attach-compose-buttons .tweet-button {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.icon-compose {
+	font-size: 20px !important;
+	margin: 0 !important;
+}
+
+.column-navigator {
+	bottom: 170px !important;
+}
+
+.app-navigator {
+	bottom: 30px !important;
+}
+
+.js-dropdown-content .is-selectable a {
+	color: #111 !important;
+}
+
+#global-settings .mdl-links .inline-block:after {
+	content: "· DeckHeart installed";
+}
